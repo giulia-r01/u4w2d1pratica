@@ -25,6 +25,8 @@ public class Esercizio2 {
 
 //        In Java, la divisione int / 0 lancia un'eccezione ArithmeticException automaticamente.
 //        Ma con i double, NON viene generata eccezione, anche se dividi per zero.
+//        Con int: la JVM ferma il programma per divisione per zero.
+//        Con double: Java restituisce Infinity o NaN, e continua l’esecuzione.
 
         try {
             System.out.println("Inserisci i km percorsi (cifra decimale): ");
